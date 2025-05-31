@@ -40,4 +40,5 @@ def check():
         return jsonify({"result": "❌ 틀렸습니다. 다시 시도해보세요!"})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=5000)
+
