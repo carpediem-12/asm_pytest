@@ -1,0 +1,67 @@
+/* 전체 배경과 폰트 스타일 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #79c7f4, #ffe66d); /* 밝은 파란-노랑 */
+    color: #333333; /* 다크한 텍스트 대신 밝은 회색 */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 게임 컨테이너 */
+.game-container {
+    background-color: rgba(255, 255, 255, 0.9); /* 밝은 흰색 배경 */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* 연한 그림자 */
+    width: 80%;
+    max-width: 600px;
+}
+
+/* 헤더 */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffb800; /* 밝은 노랑 */
+    text-shadow: 1px 1px 2px #ffffff; /* 연한 그림자 */
+}
+
+/* 문제 코드 영역 */
+.question-section pre {
+    background-color: #e6f7ff; /* 아주 연한 파란색 배경 */
+    padding: 15px;
+    border-radius: 10px;
+    color: #1f3a93; /* 파란색 텍스트 */
+    font-size: 1.1rem;
+    overflow-x: auto;
+}
+
+/* 답안 입력 영역 */
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #ffb800;
+    border-radius: 10px;
+    background-color: #fffbe6; /* 연한 노랑 배경 */
+    color: #333333; /* 진한 회색 텍스트 */
+    font-size: 1rem;
+}
+
+/* 버튼 */
+#check-answer-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ffb800; /* 밝은 노랑 버튼 */
+    color: #ffffff; /* 흰색 텍스트 */
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    fon

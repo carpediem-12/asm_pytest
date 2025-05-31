@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>야 너두 파이썬?</title> <!-- 사이트 이름으로 변경 -->
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🐍 야 너두 파이썬?</h1> <!-- 헤더 제목 변경 -->
+        
+        <div class="question-section">
+            <h2>📜 문제:</h2>
+            <pre id="python-code">
+print("Hello, World!")
+            </pre>
+        </div>
+        
+        <div class="answer-section">
+            <h2>✏️ 당신의 예측:</h2>
+            <textarea id="user-answer" placeholder="여기에 출력 결과를 작성하세요"></textarea>
+        </div>
+        
+        <button id="check-answer-btn">정답 확인</button>
+        
+        <div class="result-section">
+            <h2>💡 결과:</h2>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
